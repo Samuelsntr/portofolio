@@ -1,0 +1,23 @@
+body {
+  background-color: #ddd;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+}
+
+footer {
+  background-color: #242f3b;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 5px;
+}
+section {
+  padding-top: 5rem;
+}
+
+#projects {
+  background-color: #242f3b;
+}

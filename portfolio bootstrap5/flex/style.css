@@ -1,0 +1,152 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Latihan 1 */
+
+.container-satu {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  background-color: blanchedalmond;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.utama {
+  flex: 3;
+  order: 2;
+}
+
+.sidebar-satu {
+  flex: 1;
+  order: 1;
+}
+
+.sidebar-dua {
+  flex: 1;
+  order: 3;
+}
+
+/* Latihan 2 */
+
+.container-dua {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.layanan {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.layanan.satu {
+  background-color: rgb(105, 174, 177);
+}
+
+.layanan.dua {
+  background-color: rgb(202, 166, 75);
+}
+
+.layanan.tiga {
+  background-color: rgb(219, 93, 93);
+}
+
+/* Akhir Latihan 2 */
+
+/* Latian 3 */
+
+.container-tiga {
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.thumbnail {
+  width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+/* LATIHAN 4 */
+
+.container-empat {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #aaa;
+  border-radius: 7px;
+  background-color: #eee;
+  overflow: hidden;
+  margin: 10px;
+  flex: 1;
+}
+
+.card .header {
+  height: 150px;
+  background-color: #666;
+}
+
+.card .content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card.besar {
+  transform: scale(1.12);
+}
+
+/* LATIHAN 5 */
+
+.container-lima {
+  width: 500px;
+  height: 300px;
+  margin: 50px auto;
+  display: flex;
+  border: 1px solid black;
+}
+
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.kotak p {
+  display: inline;
+  margin: auto;
+}
+/* Responsive */
+
+@media (min-width: 600px) {
+  .container-dua {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .layanan {
+    width: 30%;
+  }
+
+  .thumbnail {
+    width: 30%;
+  }
+}
